@@ -1,0 +1,20 @@
+name: BalzamingMobs
+version: '${version}'
+main: balzamingmobs.balzamingmobs.BalzamingMobs
+api-version: 1.19
+authors: [ _k22_ ]
+description: Balzaming mobs
+
+
+commands:
+  balzam:
+    description: get balzam things.
+    usage: /balzam
+    permission: balzamplugin.balzam
+    permission-message: You are not permitted to do that
+
+
+permissions:
+  balzamplugin.balzam:
+    description: get needle
+    default: op
